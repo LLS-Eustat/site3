@@ -134,7 +134,7 @@ indicator_config_form:
   enabled: true
   dropdowns: []
   repository_link: /tree/develop/indicator-config
-  translation_link: 'https://github.com/LLS-Eustat/data3/translations/[language]/[id].yml'
+  translation_link: ''#'https://github.com/LLS-Eustat/data3/translations/[language]/[id].yml'
 indicator_data_form:
   enabled: true
   repository_link: /tree/develop/data
