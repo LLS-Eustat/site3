@@ -213,12 +213,18 @@ menu:
   - path: /news
     translation_key: menu.updates
     dropdown: []
-  - path: /faq
-    translation_key: menu.faq
-    dropdown: []
-  - path: /about
-    translation_key: menu.about
-    dropdown: []
+  - translation_key: menu.info
+    dropdown:
+      - path: faq/
+        translation_key: menu.faq
+      - path: about/
+        translation_key: menu.about
+  #- path: /faq
+    #translation_key: menu.faq
+    #dropdown: []
+  #- path: /about
+    #translation_key: menu.about
+    #dropdown: []
   #- path: /categories
     #translation_key: menu.categories
     #dropdown: []
