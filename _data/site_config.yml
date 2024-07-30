@@ -150,15 +150,15 @@ indicator_metadata_form:
   exclude_fields: []
   translated: false
 indicator_tabs:
-  tab_1: ''
-  tab_2: ''
-  tab_3: ''
-  tab_4: ''
+  tab_1: 'table'
+  tab_2: 'chart'
+  tab_3: 'map'
+  tab_4: 'embed'
 languages:
 #Orden según Web EUSTAT=> NO; el primero es la página en EN; el segundo en ES
-  - en
   - es
   - eu
+  - en
 languages_public: []
 logos: []
 map_layers: []
