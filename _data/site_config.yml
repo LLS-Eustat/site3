@@ -76,8 +76,8 @@ footer_menu:
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
-  #- path: https://www.youtube.com/user/eustat1986
-   # translation_key: general.youtube
+  - path: https://www.youtube.com/user/eustat1986
+    translation_key: general.youtube
   #- path: https://es.linkedin.com/company/eustat
    # translation_key: general.linkedin
   #- path: https://www.eustat.eus/indice.html
@@ -97,7 +97,7 @@ frontpage_cards:
     include: ''
     button_label: Read more
     button_link: 'https://example.com'
-    rule_color: ''
+    rule_color: 'red'
   - title: 'Sección 2: Nam vestibulum'
     content: |
       Descripción Sección 2: Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
@@ -105,7 +105,7 @@ frontpage_cards:
     include: ''
     button_label: Read more
     button_link: 'https://example.com'
-    rule_color: ''
+    rule_color: 'pink'
 frontpage_goals_grid:
 #Encabezado el grid de objetivos
   title: frontpage.heading_short
@@ -118,7 +118,7 @@ goal_image_extension: ''
 goals_page:
   title: general.goals
   description: frontpage.instructions_shorter
-graph_color_headline: '#004466'
+graph_color_headline: '#572364'
 graph_color_headline_high_contrast: '#55a6e5'
 graph_color_set: accessible
 graph_color_list: []
