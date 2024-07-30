@@ -118,14 +118,14 @@ goal_image_extension: ''
 goals_page:
   title: general.goals
   description: frontpage.instructions_shorter
-graph_color_headline: '#572364'
+graph_color_headline: '#572364'     #Morado
 graph_color_headline_high_contrast: '#55a6e5'
-graph_color_set: accessible
+graph_color_set: sdg #accessible
 graph_color_list: []
 graph_color_number: 0
 graph_title_from_series: false
 #Cambio en el tipo de selector de idiomas
-header_language_toggle: dropdown
+header_language_toggle: links   #dropdown
 hide_empty_metadata: true
 hide_single_series: true
 hide_single_unit: true
@@ -134,7 +134,7 @@ indicator_config_form:
   enabled: true
   dropdowns: []
   repository_link: /tree/develop/indicator-config
-  translation_link: ''
+  translation_link: 'https://github.com/LLS-Eustat/data3/translations/[language]/[id].yml'
 indicator_data_form:
   enabled: true
   repository_link: /tree/develop/data
