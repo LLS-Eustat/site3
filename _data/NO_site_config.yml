@@ -150,17 +150,26 @@ indicator_metadata_form:
   exclude_fields: []
   translated: false
 indicator_tabs:
-  tab_1: ''
-  tab_2: ''
-  tab_3: ''
-  tab_4: ''
+  tab_1: 'table'
+  tab_2: 'chart'
+  tab_3: 'map'
+  tab_4: 'embed'
 languages:
 #Orden según Web EUSTAT=> NO; el primero es la página en EN; el segundo en ES
-  - en
   - es
   - eu
+  - en
 languages_public: []
-logos: []
+logos: 
+  - language: en
+    scr: assets/img/en/SDG_logo.png
+    alt: my alt text
+  - language: est
+    scr: assets/img/es/SDG_logo
+    alt: mi texto alternativo
+  - language: eu
+    scr: assets/img/eu/SDG_logo.png
+    alt: nire testu altenatiboa    
 map_layers: []
 map_options:
   disaggregation_controls: false
@@ -204,12 +213,18 @@ menu:
   - path: /news
     translation_key: menu.updates
     dropdown: []
-  - path: /faq
-    translation_key: menu.faq
-    dropdown: []
-  - path: /about
-    translation_key: menu.about
-    dropdown: []
+  - translation_key: menu.info
+    dropdown:
+      - path: faq/
+        translation_key: menu.faq
+      - path: about/
+        translation_key: menu.about
+  #- path: /faq
+    #translation_key: menu.faq
+    #dropdown: []
+  #- path: /about
+    #translation_key: menu.about
+    #dropdown: []
   #- path: /categories
     #translation_key: menu.categories
     #dropdown: []
@@ -231,7 +246,23 @@ observation_attributes: []
 progress_status:
   status_heading: ''
   status_help: ''
-  status_types: []
+  status_types: 
+    - value: not_available
+      label: status.progress_not_available
+      image: assets/img/ptrogress/not-available.png
+      alt: status.progress_not_available
+    - value: targed_achieved
+      label: status.progress_target_achieved
+      image: assets/img/ptrogress/target-achieved.png
+      alt: status.progress_target_achieved
+    - value: challenges_remain
+      label: status.progress_challenges_remain
+      image: assets/img/ptrogress/challenges-remain.png
+      alt: status.progress_challenges_remain
+    - value: approaching_target
+      label: status.progress_approaching_target
+      image: assets/img/ptrogress/approaching-target.png
+      alt: status.progress_approaching_target  
 progressive_web_app:
   enabled: false
   name: ''
@@ -276,4 +307,4 @@ time_series_attributes:
 use_new_config_forms: true
 validate_indicator_config: false
 validate_site_config: false
-x_axis_label: ''
+x_axis_label: 'Year/Año/Urte '
