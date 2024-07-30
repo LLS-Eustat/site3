@@ -20,17 +20,17 @@ breadcrumbs:
     - path: /news
       label: menu.updates
 cookie_consent_form:
-  enabled: true
+  enabled: false
 country:
 #Info del país
   name: frontpage.country_name #The Basque Country
   adjective: frontpage.country_adjective #Basque
 create_goals:
-  previous_next_links: false
+  previous_next_links: true
   goal_content_heading: ''
   goals: []
 create_indicators:
-  previous_next_links: false
+  previous_next_links: true
 create_pages:
   - filename: ''
     folder: /goals
@@ -64,6 +64,7 @@ email_contacts:
 empty_metadata_placeholder: ''
 empty_metadata_placeholder_sources: ''
 environment: staging
+#environment: production
 footer_language_toggle: none
 footer_menu:
 #Redes de EUSTAT -> ¿?Añadir YT; linkedin -> ¿?Es posible cambiar el texto por los iconos¿?
@@ -75,8 +76,8 @@ footer_menu:
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
-  #- path: https://www.youtube.com/user/eustat1986
-   # translation_key: general.youtube
+  - path: https://www.youtube.com/user/eustat1986
+    translation_key: general.youtube
   #- path: https://es.linkedin.com/company/eustat
    # translation_key: general.linkedin
   #- path: https://www.eustat.eus/indice.html
@@ -96,7 +97,7 @@ frontpage_cards:
     include: ''
     button_label: Read more
     button_link: 'https://example.com'
-    rule_color: ''
+    rule_color: 'red'
   - title: 'Sección 2: Nam vestibulum'
     content: |
       Descripción Sección 2: Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
@@ -104,7 +105,7 @@ frontpage_cards:
     include: ''
     button_label: Read more
     button_link: 'https://example.com'
-    rule_color: ''
+    rule_color: 'pink'
 frontpage_goals_grid:
 #Encabezado el grid de objetivos
   title: frontpage.heading_short
@@ -117,14 +118,14 @@ goal_image_extension: ''
 goals_page:
   title: general.goals
   description: frontpage.instructions_shorter
-graph_color_headline: '#004466'
+graph_color_headline: '#572364'     #Morado
 graph_color_headline_high_contrast: '#55a6e5'
-graph_color_set: accessible
+graph_color_set: sdg #accessible
 graph_color_list: []
 graph_color_number: 0
 graph_title_from_series: false
 #Cambio en el tipo de selector de idiomas
-header_language_toggle: dropdown
+header_language_toggle: links   #dropdown
 hide_empty_metadata: true
 hide_single_series: true
 hide_single_unit: true
@@ -133,7 +134,7 @@ indicator_config_form:
   enabled: true
   dropdowns: []
   repository_link: /tree/develop/indicator-config
-  translation_link: ''
+  translation_link: ''#'https://github.com/LLS-Eustat/data3/translations/[language]/[id].yml'
 indicator_data_form:
   enabled: true
   repository_link: /tree/develop/data
@@ -159,7 +160,16 @@ languages:
   - es
   - eu
 languages_public: []
-logos: []
+logos:
+  - language: en
+    scr: assets/img/en/SDG_logo.png
+    alt: my alt text
+  - language: est
+    scr: assets/img/es/SDG_logo.png
+    alt: mi texto alternativo
+  - language: eu
+    scr: assets/img/eu/SDG_logo.png
+    alt: nire testu altenatiboa
 map_layers: []
 map_options:
   disaggregation_controls: false
