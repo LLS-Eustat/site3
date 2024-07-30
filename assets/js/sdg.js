@@ -128,7 +128,7 @@ opensdg.autotrack = function(preset, category, action, label) {
     this.proxy = options.proxy;
     this.proxySerieses = options.proxySerieses;
     this.startValues = options.startValues;
-    this.configObsAttributes = null;
+    this.configObsAttributes = [];
     this.allObservationAttributes = options.allObservationAttributes;
 
     // Require at least one geoLayer.
@@ -1367,7 +1367,7 @@ function nonFieldColumns() {
       columns.push(tsAttribute.field);
     });
   }
-  var observationAttributes = null;
+  var observationAttributes = [];
   if (observationAttributes && observationAttributes.length > 0) {
     observationAttributes.forEach(function(oAttribute) {
       columns.push(oAttribute.field);
@@ -2556,7 +2556,7 @@ function prepareDataForDataset(years, rows, allObservationAttributes) {
     data: [],
     observationAttributes: [],
   };
-  var configObsAttributes = null;
+  var configObsAttributes = [];
   if (configObsAttributes && configObsAttributes.length > 0) {
     configObsAttributes = configObsAttributes.map(function(obsAtt) {
       return obsAtt.field;
@@ -2818,7 +2818,7 @@ function getAllObservationAttributes(rows) {
   }
   var obsAttributeHash = {},
       footnoteNumber = 0,
-      configObsAttributes = null;
+      configObsAttributes = [];
   if (configObsAttributes && configObsAttributes.length > 0) {
     configObsAttributes = configObsAttributes.map(function(obsAtt) {
       return obsAtt.field;
@@ -3281,7 +3281,7 @@ var mapView = function () {
     $('.map').show();
     $('#map').sdgMap({
       indicatorId: indicatorId,
-      mapOptions: {"disaggregation_controls":false,"minZoom":5,"maxZoom":10,"tileURL":"","tileOptions":{"id":"","accessToken":"","attribution":""},"colorRange":"chroma.brewer.BuGn","noValueColor":"#f0f0f0","styleNormal":{"weight":1,"opacity":1,"fillOpacity":0.7,"color":"#888888","dashArray":""},"styleHighlighted":{"weight":1,"opacity":1,"fillOpacity":0.7,"color":"#111111","dashArray":""},"styleStatic":{"weight":2,"opacity":1,"fillOpacity":0,"color":"#172d44","dashArray":""}},
+      mapOptions: {"disaggregation_controls":false,"minZoom":5,"maxZoom":10,"tileURL":"","tileOptions":{"id":"","accessToken":"","attribution":""},"colorRange":"chroma.brewer.BuGn","noValueColor":"#f0f0f0","styleNormal":{"weight":1,"opacity":1,"fillOpacity":0.7,"color":"#888888","dashArray":""},"styleHighlighted":{"weight":1,"opacity":1,"fillOpacity":0.7,"color":"#111111","dashArray":""},"styleStatic":{"weight":2,"opacity":1,"fillOpacity":0,"color":"#172d44","dashArray":"5,5"}},
       mapLayers: [],
       precision: precision,
       precisionItems: precisionItems,
@@ -3428,7 +3428,7 @@ function updateObservationAttributes(obsAttributes) {
  * Gets the text of an observation attribute for display to the end user.
  */
 function getObservationAttributeText(obsAttribute) {
-    var configuredObsAttributes = null;
+    var configuredObsAttributes = [];
     var attributeConfig = _.find(configuredObsAttributes, function(configuredObsAttribute) {
         return configuredObsAttribute.field === obsAttribute.field;
     });
@@ -5581,6 +5581,22 @@ $(function() {
   });
 
   indicatorSearch();
+});
+
+// Add the cookie settings link in the footer.
+$(document).ready(function() {
+if (klaroConfig && klaroConfig.noAutoLoad !== true) {
+  var cookieLink = $('<li class="cookie-settings"><a role="button" tabindex="0">' + translations.cookies.cookie_settings + '</a></li>');
+  $(cookieLink).click(function() {
+    klaro.show();
+  });
+  $(cookieLink).keypress(function(event) {
+    if (event.key === 'Enter') {
+      klaro.show();
+    }
+  });
+  $('#footerLinks ul').append(cookieLink);
+}
 });
 
 /*! @source http://purl.eligrey.com/github/classList.js/blob/master/classList.js */

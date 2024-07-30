@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/es',
+  remoteDataBaseUrl: 'https://lls-eustat.github.io/data3/es',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -40,7 +40,7 @@ var opensdg = {
   },
 
   // Disaggregations which should be ignored on indicator pages.
-  ignoredDisaggregations: null,
+  ignoredDisaggregations: [],
 
   language: 'es',
 
@@ -145,7 +145,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site3/assets/css/style.css?v=20240730110636">
+        <link rel="stylesheet" href="/site3/assets/css/style.css?v=20240730111741">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -171,7 +171,7 @@ layout-indicator-iframe
 ">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contraste estándar","disable_high_contrast":"Desactivar alto contraste","disclaimer":"Este es un sitio web de desarrollo. Agradecemos sus <a href=\"mailto:%email_contacts.suggestions\">comentarios</a>.","enable_high_contrast":"Habilitar alto contraste","hide_menu":"Ocultar el menú de navegación","high_contrast":"Alto contraste","internet_explorer_message":"Hemos detectado que está utilizando Internet Explorer para visitar este sitio web. Internet Explorer ahora está siendo eliminado por Microsoft. Como resultado, este sitio web ya no es compatible con ninguna versión de Internet Explorer. Algunas características de este sitio no funcionarán. Debe usar un navegador moderno como Edge, Chrome, Firefox o Safari. Si tiene dificultades para instalar o acceder a un navegador diferente, comuníquese con su equipo de soporte de TI.","internet_explorer_message_title":"Este navegador de Internet ya no es compatible","logo_title":"Ir a la página de inicio","show_menu":"Mostrar el menú de navegación","skip_link":"Saltar al contenido principal","tag_line":"17 Objetivos para transformar nuestro mundo","toggle_menu":"Alternar menú. Haga clic para expandir o contraer el menú.","toggle_search":"Barra de búsqueda. Haga clic para ampliar o reducir la barra de búsqueda."};</script>
+<script>translations['header'] = {"alpha":"PoC","default_contrast":"Contraste estándar","disable_high_contrast":"Desactivar alto contraste","disclaimer":"Este es un sitio web de desarrollo. Agradecemos sus <a href=\"mailto:%email_contacts.suggestions\">comentarios</a>.","enable_high_contrast":"Habilitar alto contraste","hide_menu":"Ocultar el menú de navegación","high_contrast":"Alto contraste","internet_explorer_message":"Hemos detectado que está utilizando Internet Explorer para visitar este sitio web. Internet Explorer ahora está siendo eliminado por Microsoft. Como resultado, este sitio web ya no es compatible con ninguna versión de Internet Explorer. Algunas características de este sitio no funcionarán. Debe usar un navegador moderno como Edge, Chrome, Firefox o Safari. Si tiene dificultades para instalar o acceder a un navegador diferente, comuníquese con su equipo de soporte de TI.","internet_explorer_message_title":"Este navegador de Internet ya no es compatible","logo_title":"Ir a la página de inicio","show_menu":"Mostrar el menú de navegación","skip_link":"Saltar al contenido principal","tag_line":"17 Objetivos para transformar nuestro mundo","toggle_menu":"Alternar menú. Haga clic para expandir o contraer el menú.","toggle_search":"Barra de búsqueda. Haga clic para ampliar o reducir la barra de búsqueda."};</script>
 
 
 <script type="text/template" id="item_template">
@@ -265,7 +265,7 @@ layout-indicator-iframe
             
             <div class="col-4 col-md-3 col-lg-2 goal-icon goal-tiles">
                 <a href="/site3/es/1/" aria-label="Ver las metas e indicadores del Objetivo 1" title="Ver las metas e indicadores del Objetivo 1">
-                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/1.png"
+                    <img src="/site3/assets/img/goals/es/1.png"
                         alt="Fin de la Pobreza - Objetivo 1"
                         id="goal-1"
                         class="goal-icon-image goal-icon-image-" />
@@ -305,7 +305,7 @@ layout-indicator-iframe
   id="indicatorData"
   data-indicatorid='indicator_1-a-2'
   data-id="1-a-2"
-  data-country="Australia"
+  data-country="Euskadi"
   data-charttitle="Proporción del gasto público total que se dedica a servicios esenciales (educación, salud y protección social)"
   data-charttitles="[]"
   data-measurementunit=""
@@ -415,7 +415,7 @@ data-event-label="Change to indicator.sources tab"
         
         <div role="tabpanel" class="tab-pane active" id="national">
             <article>
-                <p>Esta tabla proporciona metadatos para el indicador real disponible a partir de las estadísticas de Australia más cercanas al correspondiente indicador global de SDG. Tenga en cuenta que incluso cuando el indicador global de ODS esté totalmente disponible a partir de las estadísticas de Australian, se debe consultar esta tabla para obtener información sobre la metodología nacional y otra información de metadatos específicos de Australian.</p>
+                <p>Esta tabla proporciona metadatos para el indicador real disponible a partir de las estadísticas de Euskadi más cercanas al correspondiente indicador global de SDG. Tenga en cuenta que incluso cuando el indicador global de ODS esté totalmente disponible a partir de las estadísticas de Vasco, se debe consultar esta tabla para obtener información sobre la metodología nacional y otra información de metadatos específicos de Vasco.</p>
 
                 <table class="table metadata-content">
   <tbody>
@@ -733,7 +733,6 @@ data-event-label="Change to indicator.sources tab"
         <td>
           
             <p>Indicator 1.a.2: Proportion of total government spending on essential services (education, health and social protection)</p>
-<p>This document applies to the education component of indicator 1.a.2.</p>
 
           
         </td>
@@ -765,7 +764,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Actualización de metadatos </th>
         <td>
           
-            <p>2021-12-20</p>
+            <p>2024-06-28</p>
 
           
         </td>
@@ -797,7 +796,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Indicadores relacionados </th>
         <td>
           
-            <p>4.5.3, 4.5.4, 4.5.5, 4.a.1, 4.b.1</p>
+            <p>4.5.3, 4.5.4, 4.5.5, 4.5.6, 4.b.1</p>
 
           
         </td>
@@ -975,6 +974,169 @@ data-event-label="Change to indicator.sources tab"
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 
 
+<script>
+  
+
+
+var klaroConfig = {
+    version: 1,
+    elementID: 'klaro',
+    styling: {
+        theme: ['light', 'top', 'wide'],
+    },
+    noAutoLoad: false,
+    htmlTexts: false,
+    embedded: false,
+    groupByPurpose: true,
+    storageMethod: 'cookie',
+    cookieName: 'cookie_settings',
+    cookieExpiresAfterDays: 365,
+    default: false,
+    mustConsent: false,
+    acceptAll: true,
+    hideDeclineAll: false,
+    hideLearnMore: false,
+    noticeAsModal: false,
+    services: [
+        {
+            name: 'contrast',
+            default: true,
+            purposes: ['functional'],
+            cookies: ['contrast'],
+            required: true,
+            optOut: false,
+            onlyOnce: true,
+        },
+        {
+            name: 'cookie_settings',
+            default: true,
+            purposes: ['functional'],
+            cookies: ['cookie_settings'],
+            required: true,
+            optOut: false,
+            onlyOnce: true,
+        },
+        
+        {
+            name: 'google-analytics',
+            default: false,
+            purposes: ['analytics'],
+            
+            cookies: ['_gat', '_gid', '_ga'],
+            
+            required: false,
+            optOut: false,
+            onlyOnce: false,
+        },
+        
+    ],
+};
+
+  klaroConfig.lang = 'es';
+klaroConfig.translations = {
+    es: {
+        acceptAll: null,
+        acceptSelected: null,
+        close: null,
+        consentModal: {
+            description: null,
+            title: null,
+        },
+        consentNotice: {
+            changeDescription: null,
+            description: null,
+            learnMore: null,
+            testing: null,
+        },
+        contextualConsent: {
+            acceptAlways: null,
+            acceptOnce: null,
+            description: null,
+        },
+        decline: null,
+        ok: null,
+        poweredBy: null,
+        privacyPolicy: {
+            name: null,
+            text: null,
+        },
+        purposeItem: {
+            service: null,
+            services: null,
+        },
+        purposes: {
+            functional: {
+                description: null,
+                title: null,
+            },
+            analytics: {
+                description: null,
+                title: null,
+            },
+        },
+        save: null,
+        service: {
+            disableAll: {
+                description: null,
+                title: null,
+            },
+            optOut: {
+                description: null,
+                title: null,
+            },
+            purpose: null,
+            purposes: null,
+            required: {
+                description: null,
+                title: null,
+            },
+        },
+    },
+};
+var allRequired = true;
+klaroConfig.services.forEach(function(service) {
+    if (!service.required) {
+        allRequired = false;
+    }
+    if (service.name === 'contrast') {
+        service.translations = {
+            es: {
+                description: null,
+                title: null,
+            },
+        }
+    }
+    else if (service.name === 'cookie_settings') {
+        service.translations = {
+            es: {
+                description: null,
+                title: null,
+            },
+        }
+    }
+    else if (service.name === 'google-analytics') {
+        service.translations = {
+            es: {
+                description: null,
+                title: null,
+            },
+        }
+    }
+});
+
+if (allRequired) {
+    klaroConfig.translations['es'].consentNotice.description = null;
+    klaroConfig.translations['es'].ok = null;
+    klaroConfig.hideDeclineAll = true;
+    klaroConfig.hideLearnMore = true;
+}
+
+</script>
+<script src="https://cdn.kiprotect.com/klaro/v0.7/klaro-no-css.js"></script>
+<script>translations['cookies'] = translations['cookies'] || {};
+    translations['cookies']['cookie_settings'] = '';</script>
+
+
 
 
 
@@ -986,12 +1148,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site3/assets/js/sdg.js?v=20240730110636'></script>
+<script src='/site3/assets/js/sdg.js?v=20240730111741'></script>
 
 
     
     
-    <script src="/site3/assets/js/custom.js?v=20240730110636"></script><script>
+    <script src="/site3/assets/js/custom.js?v=20240730111741"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
