@@ -64,6 +64,7 @@ email_contacts:
 empty_metadata_placeholder: ''
 empty_metadata_placeholder_sources: ''
 environment: staging
+#environment: production
 footer_language_toggle: none
 footer_menu:
 #Redes de EUSTAT -> ¿?Añadir YT; linkedin -> ¿?Es posible cambiar el texto por los iconos¿?
