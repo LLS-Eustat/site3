@@ -140,7 +140,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site3/assets/css/style.css?v=20240730112955">
+        <link rel="stylesheet" href="/site3/assets/css/style.css?v=20240730120655">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -232,25 +232,22 @@ layout-config-builder
 
 
 
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown  dropdown">
-    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="fa fa-globe"></i>
-      Euskera
-    </button>
-    <ul class="dropdown-menu"><li>
-            <a class="dropdown-item" href="/site3/9-1-2/config/">
-              English
+  <div class="language-toggle-container d-flex">
+    <i class="fa fa-globe language-toggle-globe-links"></i>
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
+            <a class="language-toggle-link" href="/site3/9-1-2/config/">
+                English
             </a>
-          </li><li>
-            <a class="dropdown-item" href="/site3/es/9-1-2/config/">
-              Español
+        </li><li class="language-option-es list-inline-item">
+            <a class="language-toggle-link" href="/site3/es/9-1-2/config/">
+                Español
             </a>
-          </li></ul>
-  </div>
+        </li><li class="language-option-eu list-inline-item">
+            <span class="language-toggle-active-language">
+                Euskera
+            </span>
+        </li></ul>
 </div>
-
 
 
                     <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
@@ -513,6 +510,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -526,6 +525,8 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.computation_units');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
+        
+        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -541,6 +542,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -554,6 +557,8 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.data_footnote');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
+        
+        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -571,6 +576,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -585,6 +592,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -598,6 +607,8 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.data_notice_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
+        
+        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -615,6 +626,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -628,6 +641,8 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.embedded_feature_footer');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
+        
+        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -643,6 +658,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -656,6 +673,8 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.embedded_feature_tab_title');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
+        
+        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -671,6 +690,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -685,6 +706,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -698,6 +721,8 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.expected_disaggregations');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
+        
+        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -715,6 +740,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -728,6 +755,8 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.graph_limits');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
+        
+        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -745,6 +774,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -761,6 +792,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -775,6 +808,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -788,6 +823,8 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.graph_type');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
+        
+        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -805,6 +842,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -818,6 +857,8 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.indicator_number');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
+        
+        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -835,6 +876,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -849,6 +892,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -862,6 +907,8 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.permalink');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
+        
+        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -878,6 +925,8 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.precision');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
+        
+        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -903,6 +952,8 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
+        propertyEditorTranslationLinks(propertyEditor);
+        
       }
       catch (e) {
         console.log(e.message);
@@ -916,6 +967,8 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.sort');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
+        
+        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -934,6 +987,8 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.tags');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
+        
+        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -962,7 +1017,7 @@ data-event-label="high"
 
     function addTranslationLink(propertyEditor) {
       var parts = propertyEditor.value.split('.');
-      var translationLink = '';
+      var translationLink = 'https://github.com/LLS-Eustat/data3/translations/[language]/[id].yml';
       translationLink = translationLink.replace('[id]', '9-1-2');
       translationLink = translationLink.replace('[group]', parts[0]);
       translationLink = translationLink.replace('[key]', parts[1]);
@@ -1085,12 +1140,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Bilatu';</script>
 
-<script src='/site3/assets/js/sdg.js?v=20240730112955'></script>
+<script src='/site3/assets/js/sdg.js?v=20240730120655'></script>
 
 
     
     
-    <script src="/site3/assets/js/custom.js?v=20240730112955"></script><script>
+    <script src="/site3/assets/js/custom.js?v=20240730120655"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
