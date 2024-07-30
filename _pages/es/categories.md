@@ -1,8 +1,9 @@
 ---
-layout: categories
+layout: Categories
 permalink: /es/categories/
-title: Categories
+title: Categorias
 language: es
 ---
 
-Translation needed.
+bla bla bla ...
+[](https://www.eustat.eus/about/links_c.html)

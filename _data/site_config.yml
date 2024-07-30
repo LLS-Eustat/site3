@@ -20,12 +20,14 @@ breadcrumbs:
     - path: /news
       label: menu.updates
 cookie_consent_form:
-  enabled: false
+  enabled: true
 country:
-  name: Australia
-  adjective: Australian
+#Info del país
+  name: frontpage.country_name #The Basque Country
+  adjective: frontpage.country_adjective #Basque
 create_goals:
   previous_next_links: false
+  goal_content_heading: ''
   goals: []
 create_indicators:
   previous_next_links: false
@@ -51,54 +53,66 @@ data_fields:
   series: ''
 date_formats: []
 disclaimer:
-  phase: ''
+  phase: 'PoC'
   message: ''
   hidden: false
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+#Probando con mi mail
+  questions: l-lantaron@eustat.eus
+  suggestions: l-lantaron@eustat.eus
+  functional: l-lantaron@eustat.eus
+empty_metadata_placeholder: ''
+empty_metadata_placeholder_sources: ''
 environment: staging
 footer_language_toggle: none
 footer_menu:
+#Redes de EUSTAT -> ¿?Añadir YT; linkedin -> ¿?Es posible cambiar el texto por los iconos¿?
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
+  - path: https://x.com/eustat
     translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
+  - path: https://www.facebook.com/eustat
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
+  #- path: https://www.youtube.com/user/eustat1986
+   # translation_key: general.youtube
+  #- path: https://es.linkedin.com/company/eustat
+   # translation_key: general.linkedin
+  #- path: https://www.eustat.eus/indice.html
+   # translation_key: general.web
 frontpage_cards:
+#Texto añadido
   - title: frontpage.download_all
     content: ''
     include: components/download-all-data.html
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
+  - title: 'Sección 1: Lorem ipsum'
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
+      Descripción Sección 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
       cursus est sed dapibus.
     include: ''
     button_label: Read more
     button_link: 'https://example.com'
     rule_color: ''
-  - title: Nam vestibulum
+  - title: 'Sección 2: Nam vestibulum'
     content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
+      Descripción Sección 2: Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
       interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
     include: ''
     button_label: Read more
     button_link: 'https://example.com'
     rule_color: ''
 frontpage_goals_grid:
+#Encabezado el grid de objetivos
   title: frontpage.heading_short
   description: frontpage.instructions_shorter
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
-goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
+goal_image_base: '/site3/assets/img/goals' 
 goal_image_extension: ''
 goals_page:
   title: general.goals
@@ -109,10 +123,12 @@ graph_color_set: accessible
 graph_color_list: []
 graph_color_number: 0
 graph_title_from_series: false
+#Cambio en el tipo de selector de idiomas
 header_language_toggle: dropdown
 hide_empty_metadata: true
 hide_single_series: true
 hide_single_unit: true
+ignored_disaggregations: []
 indicator_config_form:
   enabled: true
   dropdowns: []
@@ -138,8 +154,10 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
+#Orden según Web EUSTAT=> NO; el primero es la página en EN; el segundo en ES
   - en
   - es
+  - eu
 languages_public: []
 logos: []
 map_layers: []
@@ -171,7 +189,7 @@ map_options:
     opacity: 1
     fillOpacity: 0
     color: '#172d44'
-    dashArray: ''
+    dashArray: '5,5'
 menu:
   - path: /
     translation_key: general.home
@@ -187,10 +205,13 @@ menu:
     dropdown: []
   - path: /faq
     translation_key: menu.faq
-    dropdown: []  
+    dropdown: []
   - path: /about
     translation_key: menu.about
-    dropdown: []    
+    dropdown: []
+  #- path: /categories
+    #translation_key: menu.categories
+    #dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
@@ -202,28 +223,42 @@ metadata_tabs:
   - scope: sources
     title: indicator.sources
     description: ''
+meta_tags: []
 news:
-  category_links: false
+  category_links: true
+observation_attributes: []
 progress_status:
   status_heading: ''
+  status_help: ''
   status_types: []
-remote_data_prefix: 'https://open-sdg.org/open-sdg-data-starter'
+progressive_web_app:
+  enabled: false
+  name: ''
+  short_name: ''
+  precaching: false
+proxy_indicators:
+  label: ''
+  description: ''
+#Página Web de datos
+remote_data_prefix: 'https://lls-eustat.github.io/data3'
 reporting_status:
   title: status.reporting_status
   description: status.description
+  disaggregation_indicator_count_label: ''
   disaggregation_tabs: false
   status_types:
-    - value: complete
-      label: status.reported_online
-      hide_on_goal_pages: false
     - value: notstarted
       label: status.no_data_available
+      hide_on_goal_pages: false
+    - value: complete
+      label: status.reported_online
       hide_on_goal_pages: false
     - value: notapplicable
       label: status.not_applicable
       hide_on_goal_pages: false
-repository_url_data: 'https://github.com/open-sdg/open-sdg-data-starter'
-repository_url_site: ''
+#Repositorios de datos y site
+repository_url_data: 'https://github.com/LLS-Eustat/data3'
+repository_url_site: 'https://github.com/LLS-Eustat/site3'
 search_index_boost: []
 search_index_extra_fields: []
 site_config_form:
@@ -236,6 +271,8 @@ time_series_attributes:
     label: indicator.footnote
   - field: DATA_LAST_UPDATE
     label: metadata_fields.national_data_update_url
+#Cambio de la sección de configuración
+use_new_config_forms: true
 validate_indicator_config: false
 validate_site_config: false
 x_axis_label: ''

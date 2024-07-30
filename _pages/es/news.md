@@ -1,8 +1,11 @@
 ---
 layout: news
-title: News & Events
+title: Noticias
 permalink: /es/news/
 language: es
 ---
 
-Translation needed.
+Servicio de Prensa
+------------------
+
+[EUSTAT - Servicio de Prensa](https://www.eustat.eus/notas_c.html)
