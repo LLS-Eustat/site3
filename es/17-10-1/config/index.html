@@ -140,7 +140,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site3/assets/css/style.css?v=20240730124811">
+        <link rel="stylesheet" href="/site3/assets/css/style.css?v=20240730130340">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -232,22 +232,25 @@ layout-config-builder
 
 
 
-  <div class="language-toggle-container d-flex">
-    <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
-            <a class="language-toggle-link" href="/site3/17-10-1/config/">
-                English
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown  dropdown">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-globe"></i>
+      Español
+    </button>
+    <ul class="dropdown-menu"><li>
+            <a class="dropdown-item" href="/site3/17-10-1/config/">
+              English
             </a>
-        </li><li class="language-option-es list-inline-item">
-            <span class="language-toggle-active-language">
-                Español
-            </span>
-        </li><li class="language-option-eu list-inline-item">
-            <a class="language-toggle-link" href="/site3/eu/17-10-1/config/">
-                Euskera
+          </li><li>
+            <a class="dropdown-item" href="/site3/eu/17-10-1/config/">
+              Euskera
             </a>
-        </li></ul>
+          </li></ul>
+  </div>
 </div>
+
 
 
                     <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
@@ -510,8 +513,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -525,8 +526,6 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.computation_units');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
-        
-        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -542,8 +541,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -557,8 +554,6 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.data_footnote');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
-        
-        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -576,8 +571,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -592,8 +585,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -607,8 +598,6 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.data_notice_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
-        
-        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -626,8 +615,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -641,8 +628,6 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.embedded_feature_footer');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
-        
-        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -658,8 +643,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -673,8 +656,6 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.embedded_feature_tab_title');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
-        
-        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -690,8 +671,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -706,8 +685,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -721,8 +698,6 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.expected_disaggregations');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
-        
-        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -740,8 +715,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -755,8 +728,6 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.graph_limits');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
-        
-        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -774,8 +745,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -792,8 +761,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -808,8 +775,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -823,8 +788,6 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.graph_type');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
-        
-        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -842,8 +805,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -857,8 +818,6 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.indicator_number');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
-        
-        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -876,8 +835,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -892,8 +849,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -907,8 +862,6 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.permalink');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
-        
-        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -925,8 +878,6 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.precision');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
-        
-        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -952,8 +903,6 @@ data-event-label="high"
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
-        propertyEditorTranslationLinks(propertyEditor);
-        
       }
       catch (e) {
         console.log(e.message);
@@ -967,8 +916,6 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.sort');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
-        
-        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -987,8 +934,6 @@ data-event-label="high"
         var propertyEditor = editor.getEditor('root.tags');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
-        
-        propertyEditorTranslationLinks(propertyEditor);
         
       }
       catch (e) {
@@ -1017,7 +962,7 @@ data-event-label="high"
 
     function addTranslationLink(propertyEditor) {
       var parts = propertyEditor.value.split('.');
-      var translationLink = 'https://github.com/LLS-Eustat/data3/translations/[language]/[id].yml';
+      var translationLink = '';
       translationLink = translationLink.replace('[id]', '17-10-1');
       translationLink = translationLink.replace('[group]', parts[0]);
       translationLink = translationLink.replace('[key]', parts[1]);
@@ -1096,11 +1041,6 @@ data-event-label="high"
                             <a href="/site3/es/about/cookies-and-privacy/">Galletas</a>
                             
                         </li>
-                        <li>
-                            
-                            <a href="https://www.youtube.com/user/eustat1986" target="_blank">general.youtube</a>
-                            
-                        </li>
                         
                         
                         
@@ -1129,6 +1069,169 @@ data-event-label="high"
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 
 
+<script>
+  
+
+
+var klaroConfig = {
+    version: 1,
+    elementID: 'klaro',
+    styling: {
+        theme: ['light', 'top', 'wide'],
+    },
+    noAutoLoad: false,
+    htmlTexts: false,
+    embedded: false,
+    groupByPurpose: true,
+    storageMethod: 'cookie',
+    cookieName: 'cookie_settings',
+    cookieExpiresAfterDays: 365,
+    default: false,
+    mustConsent: false,
+    acceptAll: true,
+    hideDeclineAll: false,
+    hideLearnMore: false,
+    noticeAsModal: false,
+    services: [
+        {
+            name: 'contrast',
+            default: true,
+            purposes: ['functional'],
+            cookies: ['contrast'],
+            required: true,
+            optOut: false,
+            onlyOnce: true,
+        },
+        {
+            name: 'cookie_settings',
+            default: true,
+            purposes: ['functional'],
+            cookies: ['cookie_settings'],
+            required: true,
+            optOut: false,
+            onlyOnce: true,
+        },
+        
+        {
+            name: 'google-analytics',
+            default: false,
+            purposes: ['analytics'],
+            
+            cookies: ['_gat', '_gid', '_ga'],
+            
+            required: false,
+            optOut: false,
+            onlyOnce: false,
+        },
+        
+    ],
+};
+
+  klaroConfig.lang = 'es';
+klaroConfig.translations = {
+    es: {
+        acceptAll: null,
+        acceptSelected: null,
+        close: null,
+        consentModal: {
+            description: null,
+            title: null,
+        },
+        consentNotice: {
+            changeDescription: null,
+            description: null,
+            learnMore: null,
+            testing: null,
+        },
+        contextualConsent: {
+            acceptAlways: null,
+            acceptOnce: null,
+            description: null,
+        },
+        decline: null,
+        ok: null,
+        poweredBy: null,
+        privacyPolicy: {
+            name: null,
+            text: null,
+        },
+        purposeItem: {
+            service: null,
+            services: null,
+        },
+        purposes: {
+            functional: {
+                description: null,
+                title: null,
+            },
+            analytics: {
+                description: null,
+                title: null,
+            },
+        },
+        save: null,
+        service: {
+            disableAll: {
+                description: null,
+                title: null,
+            },
+            optOut: {
+                description: null,
+                title: null,
+            },
+            purpose: null,
+            purposes: null,
+            required: {
+                description: null,
+                title: null,
+            },
+        },
+    },
+};
+var allRequired = true;
+klaroConfig.services.forEach(function(service) {
+    if (!service.required) {
+        allRequired = false;
+    }
+    if (service.name === 'contrast') {
+        service.translations = {
+            es: {
+                description: null,
+                title: null,
+            },
+        }
+    }
+    else if (service.name === 'cookie_settings') {
+        service.translations = {
+            es: {
+                description: null,
+                title: null,
+            },
+        }
+    }
+    else if (service.name === 'google-analytics') {
+        service.translations = {
+            es: {
+                description: null,
+                title: null,
+            },
+        }
+    }
+});
+
+if (allRequired) {
+    klaroConfig.translations['es'].consentNotice.description = null;
+    klaroConfig.translations['es'].ok = null;
+    klaroConfig.hideDeclineAll = true;
+    klaroConfig.hideLearnMore = true;
+}
+
+</script>
+<script src="https://cdn.kiprotect.com/klaro/v0.7/klaro-no-css.js"></script>
+<script>translations['cookies'] = translations['cookies'] || {};
+    translations['cookies']['cookie_settings'] = '';</script>
+
+
 
 
 
@@ -1140,12 +1243,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site3/assets/js/sdg.js?v=20240730124811'></script>
+<script src='/site3/assets/js/sdg.js?v=20240730130340'></script>
 
 
     
     
-    <script src="/site3/assets/js/custom.js?v=20240730124811"></script><script>
+    <script src="/site3/assets/js/custom.js?v=20240730130340"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
