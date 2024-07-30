@@ -20,17 +20,17 @@ breadcrumbs:
     - path: /news
       label: menu.updates
 cookie_consent_form:
-  enabled: true
+  enabled: false
 country:
 #Info del país
   name: frontpage.country_name #The Basque Country
   adjective: frontpage.country_adjective #Basque
 create_goals:
-  previous_next_links: false
+  previous_next_links: true
   goal_content_heading: ''
   goals: []
 create_indicators:
-  previous_next_links: false
+  previous_next_links: true
 create_pages:
   - filename: ''
     folder: /goals
