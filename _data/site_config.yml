@@ -165,7 +165,7 @@ logos:
     scr: assets/img/en/SDG_logo.png
     alt: my alt text
   - language: est
-    scr: assets/img/es/SDG_logo
+    scr: assets/img/es/SDG_logo.png
     alt: mi texto alternativo
   - language: eu
     scr: assets/img/eu/SDG_logo.png
