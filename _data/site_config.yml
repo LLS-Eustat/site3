@@ -160,7 +160,16 @@ languages:
   - es
   - eu
 languages_public: []
-logos: []
+logos:
+  - language: en
+    scr: assets/img/en/SDG_logo.png
+    alt: my alt text
+  - language: est
+    scr: assets/img/es/SDG_logo
+    alt: mi texto alternativo
+  - language: eu
+    scr: assets/img/eu/SDG_logo.png
+    alt: nire testu altenatiboa
 map_layers: []
 map_options:
   disaggregation_controls: false
