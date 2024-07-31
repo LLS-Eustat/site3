@@ -90,7 +90,7 @@ frontpage_cards:
     include: ''
     button_label: Read more
     button_link: https://example.com
-    rule_color: ''
+    rule_color: pink
   - title: 'Sección 2: Nam vestibulum'
     content: >
       Descripción Sección 2: Nam vestibulum, purus quis porttitor imperdiet,
@@ -100,7 +100,7 @@ frontpage_cards:
     include: ''
     button_label: Read more
     button_link: https://example.com
-    rule_color: ''
+    rule_color: red
 frontpage_goals_grid:
   title: frontpage.heading_short
   description: frontpage.instructions_shorter
