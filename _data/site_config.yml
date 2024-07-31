@@ -52,8 +52,8 @@ data_fields:
   series: ''
 date_formats: []
 disclaimer:
-  phase: PoC
-  message: ''
+  phase: header.Alpha
+  message: header.disclaimer
   hidden: false
 email_contacts:
   questions: l-lantaron@eustat.eus
