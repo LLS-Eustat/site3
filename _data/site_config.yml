@@ -84,7 +84,7 @@ frontpage_cards:
     include: components/download-all-data.html
     button_label: ''
     button_link: ''
-    rule_color: blue
+    rule_color: orange
   - title: 'Sección 1: Lorem ipsum'
     content: >
       Descripción Sección 1: Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -94,7 +94,7 @@ frontpage_cards:
     include: ''
     button_label: Read more
     button_link: https://example.com
-    rule_color: orange
+    rule_color: blue
   - title: 'Sección 2: Nam vestibulum'
     content: >
       Descripción Sección 2: Nam vestibulum, purus quis porttitor imperdiet,
@@ -104,7 +104,7 @@ frontpage_cards:
     include: ''
     button_label: Read more
     button_link: https://example.com
-    rule_color: blue
+    rule_color: orange
 frontpage_goals_grid:
   title: frontpage.heading_short
   description: frontpage.instructions_shorter
