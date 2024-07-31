@@ -1,8 +1,9 @@
 ---
-layout: categories
-language: en
-permalink: /categories/
-title: Categories
+layout: Categories
+permalink: /es/categories/
+title: Categorias
+language: es
 ---
-## Posts by Category
-Here is a list of posts, grouped by category:
+
+bla bla bla ...
+[EUSTAT - Web](https://www.eustat.eus/about/links_c.html)
