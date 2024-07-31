@@ -141,9 +141,9 @@ indicator_metadata_form:
   exclude_fields: []
   translated: false
 indicator_tabs:
-  tab_1: 'maps'
-  tab_2: 'chart'
-  tab_3: 'table'
+  tab_1: ''
+  tab_2: ''
+  tab_3: ''
   tab_4: ''
 languages:
   - en
