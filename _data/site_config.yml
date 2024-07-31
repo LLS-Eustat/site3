@@ -147,10 +147,10 @@ indicator_metadata_form:
   exclude_fields: []
   translated: false
 indicator_tabs:
-  tab_1: map
+  tab_1: table
   tab_2: chart
-  tab_3: table
-  tab_4: ''
+  tab_4: hide
+  tab_3: hide
 languages:
   - es
   - eu
@@ -209,12 +209,6 @@ menu:
   - path: /news
     translation_key: menu.updates
     dropdown: []
-  #- path: /faq
-    #translation_key: menu.faq
-    #dropdown: []
-  #- path: /about
-    #translation_key: menu.about
-    #dropdown: []
   - translation_key: menu.info
     dropdown:
       - path: faq/
