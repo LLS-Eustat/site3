@@ -271,4 +271,4 @@ time_series_attributes:
 use_new_config_forms: true
 validate_indicator_config: false
 validate_site_config: false
-x_axis_label: Year/Año/Urte
+x_axis_label: indicator.x_axis_label
