@@ -20,7 +20,7 @@ breadcrumbs:
     - path: /news
       label: menu.updates
 cookie_consent_form:
-  enabled: true
+  enabled: false
 country:
   name: frontpage.country_name
   adjective: frontpage.country_adjective
@@ -72,6 +72,8 @@ footer_menu:
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
+  - translation_key: general.youtube
+    path: https://www.youtube.com/user/eustat1986
 frontpage_cards:
   - title: frontpage.download_all
     content: ''
@@ -141,14 +143,14 @@ indicator_metadata_form:
   exclude_fields: []
   translated: false
 indicator_tabs:
-  tab_1: ''
-  tab_2: ''
-  tab_3: ''
+  tab_1: map
+  tab_2: chart
+  tab_3: table
   tab_4: ''
 languages:
-  - en
   - es
   - eu
+  - en
 languages_public: []
 logos:
   - language: es
@@ -269,4 +271,4 @@ time_series_attributes:
 use_new_config_forms: true
 validate_indicator_config: false
 validate_site_config: false
-x_axis_label: 'Year/Año/Urte'
+x_axis_label: Year/Año/Urte
