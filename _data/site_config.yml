@@ -71,7 +71,7 @@ footer_menu:
   - path: https://www.facebook.com/eustat
     translation_key: general.facebook
   - path: https://www.youtube.com/user/eustat1986
-    translation_key: general.youtube  
+    translation_key: /assets/img/RRSS/youtube.png
   - path: https://es.linkedin.com/company/eustat
     translation_key: general.linkedin
   - path: https://www.eustat.eus/indice.html
