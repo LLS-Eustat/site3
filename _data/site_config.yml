@@ -52,7 +52,7 @@ data_fields:
   series: ''
 date_formats: []
 disclaimer:
-  phase: header.Alpha
+  phase: PoC
   message: header.disclaimer
   hidden: false
 email_contacts:
