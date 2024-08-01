@@ -59,11 +59,11 @@ Gainera, Eustatek administrazio-jarduerak egiten ditu erakundearen administrazio
 
 Interesdunek datuak eskuratzeko, zuzentzeko, aurka egiteko, ezabatzeko ("ahazteko eskubidea"), tratamendua mugatzeko, eramateko eta banakako erabakirik ez hartzeko eskubideak baliatu ahal izango dituzte tratamenduaren arduradunaren aurrean.
 
-[Administrazio-helburuetarako tratamendu gaineko eskubideak baliatzea)[https://www.euskadi.eus/web01-a2datuba/es/contenidos/arbitraje_denuncia_reclamacion/recl_10842/es_def/index.shtml)
+[Administrazio-helburuetarako tratamendu gaineko eskubideak baliatzea](https://www.euskadi.eus/web01-a2datuba/es/contenidos/arbitraje_denuncia_reclamacion/recl_10842/es_def/index.shtml)
 
 Hala ere, datuetan sartzeko, datuak zuzentzeko, datuen aurka egiteko eta tratamendua mugatzeko eskubideak erabiltzean salbuespenak izango dira helburu estatistikoetarako datuen tratamenduari dagokionez.
 
-[Helburu estatistikoak dituzten tratamenduetarako eskubideak baliatzea)[https://www.euskadi.eus/helburu-estatistikoekin-tratatutako-datu-pertsonalen-babesaren-arloko-eskubideak-egikaratzea/web01-a2datuba/eu/)
+[Helburu estatistikoak dituzten tratamenduetarako eskubideak baliatzea](https://www.euskadi.eus/helburu-estatistikoekin-tratatutako-datu-pertsonalen-babesaren-arloko-eskubideak-egikaratzea/web01-a2datuba/eu/)
 
 
 4- Cookien erabilera
