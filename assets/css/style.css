@@ -2809,15 +2809,6 @@ body.contrast-high #search-bar-on-page button:hover {
 body.contrast-high.layout-search form input, body.contrast-high.layout-search form label {
   color: black; }
 
-.notstarted {
-  background-color: red; }
-
-.complete {
-  background-color: green; }
-
-.not_applicable {
-  background-color: gray; }
-
 .btn-primary {
   color: #000000;
   background-color: #00FFFF;
