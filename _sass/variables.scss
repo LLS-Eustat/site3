@@ -13,8 +13,13 @@
 //$footer-text-color: #000000;
 $indicatorContent-horizontalRule-color: transparent;
 
-
-$status-color-complete: green !default;
-$status-color-inprogress: orange !default;
-$status-color-notstarted: red !default;
-$status-color-notapplicable: gray !default;
+//Color del texto
+$status-color-complete: white !default;
+$status-color-inprogress: white !default;
+$status-color-notstarted: white !default;
+$status-color-notapplicable: white !default;
+//Color del fondo
+$status-backgroundColor-complete: green !default;
+$status-backgroundColor-inprogress: orange !default;
+$status-backgroundColor-notstarted: red !default;
+$status-backgroundColor-notapplicable: repeating-linear-gradient(135deg, $status-backgroundColor-inprogress, white 10px, $status-backgroundColor-inprogress 10px, white 20px) !default;
