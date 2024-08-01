@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Privacidad y Cookies
-permalink: /es/about/cookies-and-privacy/
+permalink: /about/cookies-and-privacy/
 language: es
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: news
 title: Noticias
-permalink: /es/news/
+permalink: /news/
 language: es
 ---
 

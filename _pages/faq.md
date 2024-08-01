@@ -1,6 +1,6 @@
 ---
 title: 'FAQ: Preguntas más frecuentes'
-permalink: /es/faq/
+permalink: /faq/
 layout: page
 language: es
 ---
