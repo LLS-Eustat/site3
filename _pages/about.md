@@ -1,35 +1,31 @@
 ---
-title: About
-language: en
-permalink: /about/
+title: Acerca de EUSTAT
+permalink: /es/about/
 layout: page
+language: es
 ---
-## Table of contents
-- [About this site](#about-this-site)
-- [Need more info?](#need-more-info)
-- [Feedback](#feedback)
 
+Bienvenida del Director
+-----------------------
 
-The [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/) (SDGs) are a universal call to action to:
+Quiero darles la bienvenida al Instituto Vasco de Estadística-Eustat, organismo público de la Comunidad Autónoma de Euskadi que produce información estadística de calidad destinada a las administraciones públicas vascas, a los agentes sociales y a la sociedad.
 
-  * end poverty
-  
-  * protect the planet
-  
-  * improve the lives and prospects of everyone, everywhere
+En una sociedad en continuo cambio, Eustat quiere abrir un nuevo ciclo para alinear nuestro trabajo con el progreso de Euskadi en todos sus ámbitos y colaborar en esa transformación con los datos y el conocimiento que aporta.
 
-The 17 Goals were adopted by all UN Member States in 2015, as part of the [2030 Agenda for Sustainable Development](https://sustainabledevelopment.un.org/post2015/transformingourworld).
+Un trabajo que se centra en la mejora continua y en la actitud innovadora en la producción de información estadística contextualizada y de calidad, adaptada a las necesidades de nuestras personas usuarias y utilizando las metodologías y herramientas más avanzadas. A esto, se une el compromiso de la organización en la aplicación del Código de Buenas Prácticas de las Estadísticas Europeas adoptado por el Comité del Sistema Estadístico Europeo.
 
-## About this site
-This site is based on the open source [Open SDG](https://open-sdg.org/) platform.
-    
-Other countries or organisations wishing to reuse the Open SDG reporting platform are welcome to do so for free. The [Open SDG Quick Start Guide](https://open-sdg.readthedocs.io/en/latest/quick-start/) gives technical instructions on the quickest way to get a copy of the Open SDG platform up and running.
+Eustat quiere ser un agente esencial en la provisión de datos de alta calidad a partir de la creación de un ecosistema público de datos que tendrá en cuenta cuestiones como la disponibilidad, la consistencia, la integridad y la seguridad de los datos, estableciendo, para ello, procesos que garanticen la gestión de datos eficaz.
 
-If you have comments, feedback, or want to get involved with the Open SDG community please email <opensdg@outlook.com> or contact the [Open SDG GitHub](https://github.com/open-sdg/open-sdg).
+Potenciaremos la analítica de los datos y las herramientas de visualización para la toma de decisiones y seremos copartícipes en la virtualización de los datos de Euskadi, con el fin de tener un acceso eficiente y un óptimo aprovechamiento de la información.
 
-## Need more info?
-Answers to some specific questions about this website are included on our [frequently asked questions]({{ site.baseurl }}{% link _pages/faq.md %}) page.
+Con este compromiso, Eustat y sus profesionales harán un importante esfuerzo y trabajaremos guiados por los valores que nos definen: independencia, rigor, confidencialidad, ética e integridad, transparencia y responsabilidad.
 
-## Feedback
-To provide feedback on our SDG data please [contact us]({{ site.baseurl }}/contact-us)
+Por ello, le agradecemos su confianza, que cuente con nosotros y que se adentre en este servidor de Eustat, en la seguridad de que podremos facilitarle la información que necesite.
 
+*Josu Iradi Arrieta*
+
+*Director General*
+
+[*Curriculum Vitae*](https://www.irekia.euskadi.eus/es/politicians/163-josu-mirena-iradi-arrieta)
+
+Para más información visite: [Eustat - Organización](https://www.eustat.eus/about/a_eustat_c.html)
