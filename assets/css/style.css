@@ -2817,3 +2817,11 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 
 .not_applicable {
   background-color: gray; }
+
+.btn {
+  color: black; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #00FFFF;
+  border-color: #00FFFF; }
