@@ -1472,7 +1472,7 @@ body.contrast-high .proxy-pill {
     padding: 0 2px;
     border-radius: 5px; }
   .status.complete {
-    color: white;
+    color: green;
     border: 1px solid transparent;
     background-color: #2B2B2B;
     background: #2B2B2B; }
@@ -1480,7 +1480,7 @@ body.contrast-high .proxy-pill {
       background-color: #2B2B2B;
       background: #2B2B2B; }
   .status.inprogress {
-    color: white;
+    color: orange;
     border: 1px solid transparent;
     background-color: #757575;
     background: #757575; }
@@ -1488,7 +1488,7 @@ body.contrast-high .proxy-pill {
       background-color: #757575;
       background: #757575; }
   .status.notstarted {
-    color: #0b0c0c;
+    color: red;
     border: 1px solid #0b0c0c;
     background-color: white;
     background: white; }
@@ -1496,7 +1496,7 @@ body.contrast-high .proxy-pill {
       background-color: white;
       background: white; }
   .status.notapplicable {
-    color: #0b0c0c;
+    color: gray;
     border: 1px solid #0b0c0c;
     background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
     background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
@@ -1787,7 +1787,7 @@ body.contrast-high .indicator.goal-banner .goal-tiles img {
       padding: 0 2px;
       border-radius: 5px; }
     .layout-reportingstatus #main-content .statuses > div .status.complete {
-      color: white;
+      color: green;
       border: 1px solid transparent;
       background-color: #2B2B2B;
       background: #2B2B2B; }
@@ -1795,7 +1795,7 @@ body.contrast-high .indicator.goal-banner .goal-tiles img {
         background-color: #2B2B2B;
         background: #2B2B2B; }
     .layout-reportingstatus #main-content .statuses > div .status.inprogress {
-      color: white;
+      color: orange;
       border: 1px solid transparent;
       background-color: #757575;
       background: #757575; }
@@ -1803,7 +1803,7 @@ body.contrast-high .indicator.goal-banner .goal-tiles img {
         background-color: #757575;
         background: #757575; }
     .layout-reportingstatus #main-content .statuses > div .status.notstarted {
-      color: #0b0c0c;
+      color: red;
       border: 1px solid #0b0c0c;
       background-color: white;
       background: white; }
@@ -1811,7 +1811,7 @@ body.contrast-high .indicator.goal-banner .goal-tiles img {
         background-color: white;
         background: white; }
     .layout-reportingstatus #main-content .statuses > div .status.notapplicable {
-      color: #0b0c0c;
+      color: gray;
       border: 1px solid #0b0c0c;
       background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
       background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
