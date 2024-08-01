@@ -1,0 +1,1 @@
+Copiar los archivos fuera de las carpetas y modificar el permalink (=> quitar /es)
