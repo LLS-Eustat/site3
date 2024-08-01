@@ -1,6 +1,6 @@
 ---
 title: Acerca de EUSTAT
-permalink: /es/about/
+permalink: /about/
 layout: page
 language: es
 ---
