@@ -25,7 +25,7 @@ language: eu
 Datuak lortu eta egiaztatu bezain laster gehituko ditugu. Horrek datu berriak eta dagoeneko argitaratu ditugun datuen eguneratzeak biltzen ditu. Ahal den guztietan, dauden iturrietatik datuak biltzen jarraituko dugu.
 
 ## Nola iradokitzen ditut datu-iturri berriak edo desberdinak?
-Erabili ditugun datu-iturriei buruzko iruzkinak badituzu edo datu-iturri berrietarako iradokizunak badituzu, bidali mezu elektroniko bat {{site.email_contacts.questions}} helbidera .
+Erabili ditugun datu-iturriei buruzko iruzkinak badituzu edo datu-iturri berrietarako iradokizunak badituzu, bidali mezu elektroniko bat <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a> helbidera .
 
 Zer egiten ari zara datu hutsak betetzeko?
 Adierazle batzuetarako, nahiz eta nazio mailako datuak izan ditzakegun, gure datu-iturriek ez digute beti talde nagusi guztietan banakatzeko aukera ematen.
@@ -60,7 +60,7 @@ GJHen adierazle bakoitza honako maila hauetako bati (edo gehiagori) esleituta da
 
 -**3. maila:** Oraindik ez dago nazioartean ezarritako metodologia edo estandarrik eskuragarri adierazlearentzat, baina metodologia/estandarrak garatuak edo frogatuak izaten ari dira (edo izango dira) (Nazio Batuetako Estatistika Batzordearen 51. bilkura-alditik aurrera, esparru-adierazle globalak ez du III. mailako adierazlerik).
 
-**2020ko abenduaren 28an:** Eguneratutako mailen sailkapenak*** I. mailako 130 adierazle**,** II. mailako 97 adierazle** eta******* maila anitzeko 4 adierazle ditu (adierazlearen osagaiak maila desberdinetan sailkatzen dira).
+**2020ko abenduaren 28an:** Eguneratutako mailen sailkapenak **I. mailako 130 adierazle**, **II. mailako 97 adierazle** eta **maila anitzeko 4 adierazle** ditu (adierazlearen osagaiak maila desberdinetan sailkatzen dira).
 
 Informazio gehiago lortzeko, [kontsultatu GIHen adierazle globaletarako IAEG-SDGren mailen sailkapena](https://unstats.un.org/sdgs/iaeg-sdgs/tier-classification/)
 
