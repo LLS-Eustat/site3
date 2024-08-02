@@ -4,7 +4,7 @@ permalink: /eu/faq/
 layout: page
 language: eu
 ---
-##Eduki-taula
+## Eduki-taula
 - [Zein maiztasunekin erantsiko zaizkio datu berriak gune honi?](#zein maiztasunekin-ere-berriro-datu-este-gunea)
 
 - [Nola iradokitzen ditut datu-iturri berriak edo desberdinak?](#Nola Iradokitzen Dituenak-datuak-berriak-desberdinak)
@@ -21,10 +21,10 @@ language: eu
 
 - [Zer esan nahi du hiru mailetako bakoitzak?](#qué-significa-cada-uno-de-tres-nivel)
 
-##Zein maiztasunekin gehituko zaizkio datu berriak gune honi?
+## Zein maiztasunekin gehituko zaizkio datu berriak gune honi?
 Datuak lortu eta egiaztatu bezain laster gehituko ditugu. Horrek datu berriak eta dagoeneko argitaratu ditugun datuen eguneratzeak biltzen ditu. Ahal den guztietan, dauden iturrietatik datuak biltzen jarraituko dugu.
 
-##Nola iradokitzen ditut datu-iturri berriak edo desberdinak?
+## Nola iradokitzen ditut datu-iturri berriak edo desberdinak?
 Erabili ditugun datu-iturriei buruzko iruzkinak badituzu edo datu-iturri berrietarako iradokizunak badituzu, bidali mezu elektroniko bat {{site.email_contacts.questions}} helbidera .
 
 Zer egiten ari zara datu hutsak betetzeko?
@@ -32,7 +32,7 @@ Adierazle batzuetarako, nahiz eta nazio mailako datuak izan ditzakegun, gure dat
 
 Horrek esan nahi du datu-iturri berriak bilatu behar ditugula, daudenak lotu edo datuak modelatu.
 
-##Zer esan nahi du txostenaren egoerak?
+## Zer esan nahi du txostenaren egoerak?
 Hiru txosten-egoera mota erabili ditugu adierazle baterako, eta horiek ere koloreen arabera kodetuta daude:
 
 -**Jakinarazia (beltza):** Gutxienez, adierazle honetarako datu nazional nagusiak webgune honetan daude eskuragarri, baina litekeena da datuak oraindik erabat banakatuta ez egotea. Banakapen gehigarriak lortzen jarraitzen dugu.
@@ -43,16 +43,16 @@ Hiru txosten-egoera mota erabili ditugu adierazle baterako, eta horiek ere kolor
 
 -**Ez du aplikatzen (marratua):** Adierazle hau ez da testuinguru nazionalean aplikagarria.
 
-##Beste herrialde batzuek kopiatu dezakete webgune hau?
+## Beste herrialde batzuek kopiatu dezakete webgune hau?
 Bai. Kontsultatu [Open SDGren hasierako gida azkarra](https://open-sdg.readthedocs.io/en/latest/quick-start/), Open SDG plataformaren kopia bat funtzionamenduan izateko modurik azkarrenari buruzko jarraibide teknikoak lortzeko.
 
-##Zein da webgune honen irisgarritasuna?
+## Zein da webgune honen irisgarritasuna?
 Open SDGk ahalik eta erabilerrazena eta erabilerrazena izan nahi du erabiltzaile guztientzat, eta AA maila lortzeko lan egiten du [Web-edukirako erabilerraztasun-jarraibideak (WCAG 2.0)](https://www.gov.uk/zerbitzu-eskuliburua/helping-people- usar-su-servicio/comprender-wcag-20).
 
-##Zer nabigatzaile erabil ditzaket webgune hau ikusteko?
+## Zer nabigatzaile erabil ditzaket webgune hau ikusteko?
 Gure web gehien erabiltzen diren nabigatzaileen azken bertsio gehienekin funtzionatzen du.
 
-##Zer esan nahi du hiru mailetako bakoitzak?
+## Zer esan nahi du hiru mailetako bakoitzak?
 GJHen adierazle bakoitza honako maila hauetako bati (edo gehiagori) esleituta dago:
 -**1. maila:** Adierazlea kontzeptualki argia da, nazioartean ezarritako metodologia du eta estandarrak daude eskuragarri, eta herrialdeek datuak ekoizten dituzte aldizka adierazlea garrantzitsua den eskualde bakoitzeko herrialdeen eta biztanleriaren ehuneko 50entzat, gutxienez.
 
