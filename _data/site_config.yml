@@ -85,25 +85,33 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: blue
-  - title: 'Sección 1: Lorem ipsum'
-    content: >
-      Descripción Sección 1: Lorem ipsum dolor sit amet, consectetur adipiscing
-      elit. Morbi mollis
-
-      cursus est sed dapibus.
+#  - title: 'Sección 1: Lorem ipsum'
+#    content: >
+#      Descripción Sección 1: Lorem ipsum dolor sit amet, consectetur adipiscing
+#      elit. Morbi mollis
+#
+#      cursus est sed dapibus.
+#    include: ''
+#    button_label: Read more
+#    button_link: https://example.com
+#    rule_color: orange
+#  - title: 'Sección 2: Nam vestibulum'
+#    content: >
+#      Descripción Sección 2: Nam vestibulum, purus quis porttitor imperdiet,
+#      nisl sem mollis nisl, a
+#
+#      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
+#    include: ''
+#    button_label: Read more
+#    button_link: https://example.com
+#    rule_color: blue
+- title: frontpage.oceca_title
+    content: frontpage.oceca_content
     include: ''
-    button_label: Read more
-    button_link: https://example.com
     rule_color: orange
-  - title: 'Sección 2: Nam vestibulum'
-    content: >
-      Descripción Sección 2: Nam vestibulum, purus quis porttitor imperdiet,
-      nisl sem mollis nisl, a
-
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
+  - title: frontpage.lehendakaritza_title
+    content: frontpage.lehendakaritza_content
     include: ''
-    button_label: Read more
-    button_link: https://example.com
     rule_color: blue
 frontpage_goals_grid:
   title: frontpage.heading_short
