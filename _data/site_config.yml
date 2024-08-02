@@ -105,7 +105,7 @@ frontpage_cards:
 #    button_label: Read more
 #    button_link: https://example.com
 #    rule_color: blue
-- title: frontpage.oceca_title
+  - title: frontpage.oceca_title
     content: frontpage.oceca_content
     include: ''
     rule_color: orange
