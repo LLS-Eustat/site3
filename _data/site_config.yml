@@ -48,8 +48,8 @@ custom_js:
   - /assets/js/custom.js
 data_edit_url: data
 data_fields:
-  units: ''
-  series: ''
+  units: 'Units'
+  series: 'Series'
 date_formats: []
 disclaimer:
   phase: PoC
@@ -167,13 +167,13 @@ languages_public: []
 logos:
   - language: es
     src: /assets/img/es/SDG_logo.png
-    alt: Mi texto alternativo
+    alt: Ir a la página de inicio
   - language: eu
     src: /assets/img/eu/SDG_logo.png
-    alt: Nire testu alterntiboa
+    alt: Joan hasierako orrira
   - language: en
     src: /assets/img/en/SDG_logo.png
-    alt: My alternative Text
+    alt: Go to homepage
 map_layers: []
 map_options:
   disaggregation_controls: false
