@@ -1,5 +1,5 @@
 ---
-layout: Categories
+layout: categories
 permalink: /eu/categories/
 title: Kategoriak
 language: eu

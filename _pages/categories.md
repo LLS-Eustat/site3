@@ -1,5 +1,5 @@
 ---
-layout: Categories
+layout: categories
 permalink: /categories/
 title: Categorias
 language: es
