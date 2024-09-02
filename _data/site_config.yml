@@ -243,26 +243,55 @@ observation_attributes: []
 #  status_heading: ''
 #  status_help: ''
 #  status_types: []
+#progress_status:
+#  status_heading: ''
+#  status_help: ''
+#  status_types:
+#    - value: not_available
+#      label: status.progress_not_available
+#      image: assets/img/progress/not-available.png
+#      alt: status.progress_not_available
+#    - value: target_achieved
+#      label: status.progress_target_achieved
+#      image: assets/img/progress/target-achieved.png
+#      alt: status.progress_target_achieved
+#    - value: challenges_remain
+#      label: status.progress_challenges_remain
+#      image: assets/img/progress/challenges-remain.png
+#      alt: status.progress_challenges_remain
+#    - value: approaching_target
+#      label: status.progress_approaching_target
+#      image: assets/img/progress/approaching-target.png
+#      alt: status.progress_approaching_target
 progress_status:
-  status_heading: ''
-  status_help: ''
+  status_heading: status.progress_status
+  status_help: status.progress_status
   status_types:
+    - value: alcanzado
+      label: status.alcanzado
+      image: assets/img/progress/alcanzado.png
+      alt: status.alcanzado
+      hide_on_goal_pages: false
+    - value: progreso
+      label: status.en_progreso
+      image: assets/img/progress/en_progreso.png
+      alt: status.en_progreso
+      hide_on_goal_pages: false
+    - value: retroceso
+      label: status.retroceso
+      image: assets/img/progress/retroceso.png
+      alt: status.retroceso
+      hide_on_goal_pages: false
+    - value: noevaluado
+      label: status.no_evaluado
+      image: assets/img/progress/no_evaluado.png
+      alt: status.no_evaluado
+      hide_on_goal_pages: false
     - value: not_available
       label: status.progress_not_available
       image: assets/img/progress/not-available.png
       alt: status.progress_not_available
-    - value: target_achieved
-      label: status.progress_target_achieved
-      image: assets/img/progress/target-achieved.png
-      alt: status.progress_target_achieved
-    - value: challenges_remain
-      label: status.progress_challenges_remain
-      image: assets/img/progress/challenges-remain.png
-      alt: status.progress_challenges_remain
-    - value: approaching_target
-      label: status.progress_approaching_target
-      image: assets/img/progress/approaching-target.png
-      alt: status.progress_approaching_target
+      hide_on_goal_pages: false
 progressive_web_app:
   enabled: false
   name: ''
