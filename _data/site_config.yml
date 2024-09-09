@@ -79,7 +79,15 @@ date_formats:
     format: '%d de %B de %Y'
   - type: standard
     language: eu
-    format: %B+"-k"+' %d, %Y'
+    format: '%Bk  %d, %Y'
+#    format: %B+"-k"+' %d, %Y'
+#    format: %B+"-k"+' %d, %Y'
+#        iraila: &iraila %B
+#        dek: &dk k
+#        egun: &egun ''
+#        c: ${*iraila} | {*dek}
+#        !!python/object/apply:string.join [[*home, pics], /]
+    
 disclaimer:
   phase: PoC
   message: header.disclaimer
@@ -194,7 +202,7 @@ indicator_metadata_form:
 indicator_tabs:
   tab_1: table
   tab_2: chart
-  tab_4: maps
+  tab_4: map
   tab_3: hide
 languages:
   - es
