@@ -79,7 +79,8 @@ date_formats:
     format: '%d de %B de %Y'
   - type: standard
     language: eu
-    format: '%Bk  %d, %Y'
+    format: '%Y/%_m/%d'
+#    format: '%Bk  %d, %Y'
 #    format: %B+"-k"+' %d, %Y'
 #    format: %B+"-k"+' %d, %Y'
 #        iraila: &iraila %B
