@@ -92,6 +92,7 @@ empty_metadata_placeholder: ''
 empty_metadata_placeholder_sources: ''
 environment: staging
 footer_language_toggle: none
+#Opciones del menú a pie de página: contacto/RRDD/cookies
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
@@ -108,11 +109,17 @@ footer_menu:
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
 frontpage_cards:
+    # This sets the title of the card.
   - title: frontpage.download_all
+    # This sets the content of the card. 
     content: ''
+    # This displays any file in the `_includes` folder.
     include: components/download-all-data.html
+    # This controls the text for a call-to-action button.
     button_label: ''
+    # This controls the URL the button links to.
     button_link: ''
+    # This controls the color of the line at the top of the card.
     rule_color: blue
 #  - title: 'Sección 1: Lorem ipsum'
 #    content: >
@@ -158,6 +165,7 @@ graph_color_headline_high_contrast: '#55a6e5'
 graph_color_set: accessible
 graph_color_list: []
 graph_color_number: 17
+#This setting can be set to true to use the currently-selected series as the chart title, whenever possible
 graph_title_from_series: true
 header_language_toggle: links
 hide_empty_metadata: true
