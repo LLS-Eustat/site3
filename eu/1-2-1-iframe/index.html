@@ -145,7 +145,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site3/assets/css/style.css?v=20240909111653">
+        <link rel="stylesheet" href="/site3/assets/css/style.css?v=20240909130455">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -434,7 +434,7 @@ data-event-label="Change to Chart tab"
     <li role="presentation"
       class="
         nav-item
-        
+        map
         
       ">
       <button
@@ -443,7 +443,17 @@ data-event-label="Change to Chart tab"
         role="tab"
         type="button"
         
-      ></button>
+          id="tab-mapview"
+          data-bs-target="#mapview"
+          aria-controls="mapview"
+          data-no-disagg="true"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Map tab"
+
+        
+      >Mapa</button>
     </li>
     
   </ul>
@@ -596,6 +606,60 @@ data-event-label="Change to Chart tab"
         </div>
       
     
+      
+        <div role="tabpanel" class="tab-pane " id="mapview" class="map">
+          
+<h4 id="map-heading" class="map-title">Pobrezia-atalase nazionalaren azpitik bizi den biztanleriaren proportzioa, sexuaren eta adinaren arabera banatuta</h4>
+<div id="map" aria-describedby="table-alternative">
+  <img class="map-loading-image" src="/site3/assets/img/loading.gif" alt="Mapa kargatzen" />
+</div>
+
+
+
+
+<div id="mapFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Neurri-unitatea:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Oharra:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Azken aldiz eguneratutako datuak:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+    
+</div>
+
+
+        </div>
       
     
   </div>
@@ -993,7 +1057,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Azken aldiz eguneratutako datuak </th>
         <td>
           
-            July-k 29, 2024
+            Julyk 29, 2024
           
         </td>
         </tr>
@@ -1008,7 +1072,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Azken aldiz eguneratutako metadatuak </th>
         <td>
           
-            July-k 29, 2024
+            Julyk 29, 2024
           
         </td>
         </tr>
@@ -1379,7 +1443,7 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Bilatu';</script>
 
-<script src='/site3/assets/js/sdg.js?v=20240909111653'></script>
+<script src='/site3/assets/js/sdg.js?v=20240909130455'></script>
 
 
 <script type="text/x-mathjax-config">
@@ -1401,7 +1465,7 @@ data-event-label="Change to indicator.sources tab"
 
     
     
-    <script src="/site3/assets/js/custom.js?v=20240909111653"></script><script>
+    <script src="/site3/assets/js/custom.js?v=20240909130455"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
