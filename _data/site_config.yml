@@ -79,7 +79,7 @@ date_formats:
     format: '%d de %B de %Y'
   - type: standard
     language: eu
-    format: '%B-k %d, %Y'
+    format: %B+"-k"+' %d, %Y'
 disclaimer:
   phase: PoC
   message: header.disclaimer
