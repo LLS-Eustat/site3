@@ -79,15 +79,15 @@ date_formats:
     format: '%d de %B de %Y'
   - type: standard
     language: eu
-    format: '%Y/%_m/%d'
+    format: '%Y/%m/%d'
 #    format: '%Bk  %d, %Y'
 #    format: %B+"-k"+' %d, %Y'
-    format: 
-        iraila: &iraila '%B'
-        dek: &dk 'k'
-        egun: &egun '%d'
-        koma: &koma ', '
-        urte: &urte '%Y'
+#    format: 
+#        iraila: &iraila '%B'
+#        dek: &dk 'k'
+#        egun: &egun '%d'
+#        koma: &koma ', '
+#        urte: &urte '%Y'
         date: ${*iraila}|{*dk}|{*egun}|{*koma}\{*urte}
 #        !!python/object/apply:string.join [[*home, pics], /]
 disclaimer:
