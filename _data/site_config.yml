@@ -88,7 +88,7 @@ date_formats:
 #        egun: &egun '%d'
 #        koma: &koma ', '
 #        urte: &urte '%Y'
-        date: ${*iraila}|{*dk}|{*egun}|{*koma}\{*urte}
+#        date: ${*iraila}|{*dk}|{*egun}|{*koma}\{*urte}
 #        !!python/object/apply:string.join [[*home, pics], /]
 disclaimer:
   phase: PoC
