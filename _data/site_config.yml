@@ -83,11 +83,11 @@ date_formats:
 #    format: '%Bk  %d, %Y'
 #    format: %B+"-k"+' %d, %Y'
     format: 
-        iraila: &iraila %B
-        dek: &dk k
-        egun: &egun %d
+        iraila: &iraila '%B'
+        dek: &dk 'k'
+        egun: &egun '%d'
         koma: &koma ', '
-        urte: &urte %Y
+        urte: &urte '%Y'
         date: ${*iraila}|{*dk}|{*egun}|{*koma}\{*urte}
 #        !!python/object/apply:string.join [[*home, pics], /]
 disclaimer:
