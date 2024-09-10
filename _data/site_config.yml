@@ -80,8 +80,11 @@ date_formats:
   - type: standard
     language: eu
     format: '%Y/%m/%d'
+# Salida = Januaryk 10, 2020 => no se soluciona añadien en calendar.yml Januaryk: urtarrilak
 #    format: '%Bk  %d, %Y'
 #    format: %B+"-k"+' %d, %Y'
+# Salida = January-k 10, 2020
+# Error en el Build => por el tipo fecha
 #    format: 
 #        iraila: &iraila '%B'
 #        dek: &dk 'k'
@@ -89,6 +92,7 @@ date_formats:
 #        koma: &koma ', '
 #        urte: &urte '%Y'
 #        date: ${*iraila}|{*dk}|{*egun}|{*koma}\{*urte}
+# No probado
 #        !!python/object/apply:string.join [[*home, pics], /]
 disclaimer:
   phase: PoC
@@ -256,22 +260,22 @@ map_layers:
   - subfolder: Territorio
     label: Territorio
     min_zoom: 5
-    max_zoom: 6
+    max_zoom: 10
     staticBorders: true
   - subfolder: Comarca
     label: Comarca
-    min_zoom: 7
-    max_zoom: 8
+    min_zoom: 11
+    max_zoom: 15
     staticBorders: true
   - subfolder: Municipio
     label: Municipio
-    min_zoom: 9
-    max_zoom: 14
+    min_zoom: 16    
+    max_zoom: 20
     staticBorders: true
 map_options:
   disaggregation_controls: true
   minZoom: 5
-  maxZoom: 14
+  maxZoom: 20
   tileURL: ''
   tileOptions:
     id: ''
