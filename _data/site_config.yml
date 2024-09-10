@@ -82,13 +82,14 @@ date_formats:
     format: '%Y/%_m/%d'
 #    format: '%Bk  %d, %Y'
 #    format: %B+"-k"+' %d, %Y'
-#    format: %B+"-k"+' %d, %Y'
-#        iraila: &iraila %B
-#        dek: &dk k
-#        egun: &egun ''
-#        c: ${*iraila} | {*dek}
+    format: 
+        iraila: &iraila %B
+        dek: &dk k
+        egun: &egun %d
+        koma: &koma ', '
+        urte: &urte %Y
+        date: ${*iraila}|{*dk}|{*egun}|{*koma}\{*urte}
 #        !!python/object/apply:string.join [[*home, pics], /]
-    
 disclaimer:
   phase: PoC
   message: header.disclaimer
